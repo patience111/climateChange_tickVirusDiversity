@@ -17,8 +17,8 @@ Three scripts are provided in "scripts" folder:<br>
 <br>
 **datasets**<br>
 In datasets folder:<br>
-**CNRM-CM6-1-HR_sourceData** provided the link for downloading the source data of the climate model<br>
+**CNRM-CM6-1-HR_sourceData** provides the link for downloading the source data of the climate model<br>
 extratced data (for predition) after run CMIP6_data_process.py are in folder **climate_extract_byCMIP6_data_process**<br>
 latitude and longitude information is in **latitude_and_longitude** folder<br>
-the data need for traning model are in **for_model_training**<br>
+the data need for training model are in **for_model_training**<br>
 
