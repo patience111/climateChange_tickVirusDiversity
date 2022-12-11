@@ -8,3 +8,9 @@ psl (Pa): Sea Level Pressure<br>
 pr (kg m-2 s-1): Precipitation<br>
 hurs (%): Near-Surface Relative Humidity<br>
 sfcWind (m s-1): Near-Surface Wind Speed<br>
+<br>
+**scripts**<br>
+Three scripts are provided in "scripts" folder:<br>
+CMIP6_data_process.py: for processing climate data from climate model<br>
+train_model.py: for training model<br>
+prediction.py: for prediction via inputting the six climate factors introduced above<br>
