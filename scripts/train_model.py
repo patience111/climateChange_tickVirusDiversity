@@ -27,8 +27,6 @@ def build_model():
     tf.keras.layers.Dense(256, kernel_initializer='normal', activation='relu'),
     tf.keras.layers.Dense(256, kernel_initializer='normal', activation='relu'),
     tf.keras.layers.Dense(256, kernel_initializer='normal', activation='relu'),
-    #tf.keras.layers.Dense(16, activation='relu'),
-    #tf.keras.layers.Dense(16, activation='relu'),
     tf.keras.layers.Dense(1, kernel_initializer='normal', activation='linear')
   ])
 
