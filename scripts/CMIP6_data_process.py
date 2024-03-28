@@ -10,12 +10,7 @@ def extratct(source_path, var, year, rcp, dest_path):
     var_extract = file.variables[var][:]
     var_extract_year = var_extract[12 + 12 * (year - 2016): 24 + 12 * (year - 2016) :]
     print(12 + 12 * (year - 2016))
-    #if year == 2019:
-     #   var_extract_year = var_extract[48:60:]
-    #if year ==
-    #if year == 2030:
-     #   var_extract_year = var_extract[180:192:]
-        
+
     if var == 'tas' or var == 'tasmax':
         var_extract_year_mean = np.mean(var_extract_year, axis=0)
         var_extract_year_mean_c = var_extract_year_mean - 273.5
